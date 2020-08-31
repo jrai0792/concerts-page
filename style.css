@@ -1,7 +1,6 @@
 main {
   margin: 0;
   padding: 0;
-  background-color: #d3d3d3;
   font-family: 'Lato', sans-serif;
   overflow: hidden;
 }
@@ -24,6 +23,10 @@ main {
   color: #ec5242;
 }
 
+.white-clr {
+  color: #fff;
+}
+
 /* Background color classes */
 .bg-black {
   background-color: #000;
@@ -31,6 +34,24 @@ main {
 
 .bg-gray {
   background-color: rgb(58, 58, 58);
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.mpgrid-bg {
+  background-color: rgba(102, 100, 100, 0.555);
+}
+
+/* Common style classes */
+
+.grid {
+  display: grid;
+}
+
+.flex {
+  display: flex;
 }
 
 /* Navbar */
@@ -49,6 +70,8 @@ main {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(1%);
 
   /* filter: blur(8px); */
 
@@ -56,12 +79,16 @@ main {
 }
 
 .main-heading {
-  font-weight: bolder;
+  font-weight: 900;
   width: 30%;
   font-size: 50px;
   position: absolute;
   left: 10%;
-  top: 40%;
+  top: 20%;
+  background-image: url("assets/images/heading-bg.jpg"), linear-gradient(180deg, rgba(236, 82, 66, 1) 0%, rgba(217, 15, 15, 1) 30%, rgba(230, 104, 59, 1) 70%, rgba(246, 71, 8, 1) 100%);
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .bg-text {
@@ -71,7 +98,7 @@ main {
   font-weight: bold;
   border: 3px solid #f1f1f1;
   position: absolute;
-  top: 75%;
+  top: 65%;
   left: 45%;
   transform: translate(-50%, -50%);
   z-index: 10;
@@ -79,4 +106,62 @@ main {
   padding: 20px;
   text-align: left;
   font-size: 26px;
+}
+
+/* Main Program section */
+
+.main-program {
+  width: 100vw;
+  height: 80vh;
+  background-image: url("assets/images/main-program-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.mp-grid {
+  width: 70%;
+  margin: 0 auto;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 300px;
+  column-gap: 10px;
+}
+
+/* Featured speaker section */
+
+.speakers {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.speakers-row {
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 20px;
+  grid-auto-rows: 250px;
+}
+
+.sp-row {
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+}
+
+/*
+.each-speaker {
+
+} */
+.speaker-img {
+  flex: 1;
+}
+
+.img-speaker {
+  width: 140px;
+  height: 120px;
+  background-size: cover;
+}
+
+.speaker-text {
+  flex: 2;
+
+  /*
+    margin-left: 20px; */
 }
