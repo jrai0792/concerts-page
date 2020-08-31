@@ -27,6 +27,10 @@ main {
   color: #fff;
 }
 
+.footer-text {
+  color: #d3d0d0;
+}
+
 /* Background color classes */
 .bg-black {
   background-color: #000;
@@ -164,4 +168,15 @@ main {
 
   /*
     margin-left: 20px; */
+}
+
+/* Footer section */
+
+.footer-content {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.list-style {
+  list-style: none;
 }
