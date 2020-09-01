@@ -39,17 +39,18 @@
         </nav>
         <nav class="navbar navbar-expand-md navbar-inverse">
             <div class="container-fluid">
+                <a href="#" class="navbar-brand d-none d-md-block"><img class="main-logo" src="assets/images/logo.jpeg"
+                    alt="Main logo image"></a>
                 <div class="navbar-header ml-3 mr-3">
                     <button type="button" class="navbar-toggler" data-toggle="collapse"
-                        data-target="#myNavbar #myNavbar1" aria-controls="myNavbar" aria-expanded="false"
+                        data-target="#myNavbar #myNavbar1" aria-controls="myNavbar1 myNavbar" aria-expanded="false"
                         aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
                     </button>
                 </div>
-                <a href="#" class="navbar-brand d-none d-md-block"><img class="main-logo" src="assets/images/logo.jpeg"
-                        alt="Main logo image"></a>
-                <div class="collapse navbar-collapse ml-5 mr-5 justify-content-end" id="myNavbar1">
-                    <ul class="navbar-nav">
+                
+                <div class="collapse navbar-collapse ml-5 mr-5 justify-content-end" id="myNavbar1" role="navigation">
+                    <ul class="navbar-nav menu">
                         <li class="mr-5 ml-5">
                             <a class="nav-item nav-link active darkgray-clr" href="#">Home</a>
                         </li>
@@ -64,14 +65,14 @@
             </div>
         </nav>
     </header>
-    <main>
+    <main class="container-fluid">
         <!-- Home page -->
-        <section class="home-page">
+        <section class="home-page col-12">
             <!-- <img  src="assets/images/background-image.jpg" alt="background image"> -->
-            <h1 class="orange-clr text-uppercase main-heading">Let's come together for all of US...</h1>
-            <p class="bg-text">Come together to help each other. A joyful evening with music, stories and much more..
+            <h1 class="orange-clr text-uppercase main-heading text-center pt-5 col-sm-12">Let's come together for Musical Night...</h1>
+            <p class="bg-text mt-5 text-center">Come together to help each other. A joyful evening with music, stories and much more..
             </p>
-            <p class="venue"><time class="date-font" datetime="2020-09-20">2020.09.20(Sunday)</time><br>@ National Art
+            <p class="venue text-center mt-5"><time class="date-font" datetime="2020-09-20">2020.09.20(Sunday)</time><br>@ National Art
                 Theatre, Bangalore</p>
         </section>
         <section class="main-program">
@@ -82,24 +83,24 @@
 
             <div class="mp-grid">
                 <div class="row justify-content-center">
-                    <article class="mpgrid-bg col-md-3 col-lg-2 program justify-content-center text-center p-3 border mr-2">
+                    <article class="mpgrid-bg col-md-2 col-lg-2 program justify-content-center text-center p-3 border mr-2">
                         <i class="fa fa-music date-font white-clr" aria-hidden="true"></i>
-                        <h3 class="orange-clr">Music</h3>
+                        <h3 class="orange-clr p-4 text-center">Music</h3>
                         <p class="white-clr">Listen to musicians from different part of the world.</p>
                     </article>
-                    <article class="mpgrid-bg col-md-3 col-lg-2 program justify-content-center text-center p-3 border mr-2">
+                    <article class="mpgrid-bg col-md-2 col-lg-2 program justify-content-center text-center p-3 border mr-2">
                         <i class="fa fa-heart date-font white-clr" aria-hidden="true"></i>
-                        <h3 class="orange-clr">Art</h3>
+                        <h3 class="orange-clr p-4 text-center">Art</h3>
                         <p class="white-clr">Variuos art collection from all over the world.</p>
                     </article>
-                    <article class="mpgrid-bg col-md-3 col-lg-2 program justify-content-center text-center p-3 border mr-2">
+                    <article class="mpgrid-bg col-md-2 col-lg-2 program justify-content-center text-center p-3 border mr-2">
                         <i class="fa fa-life-ring date-font white-clr" aria-hidden="true"></i>
-                        <h3 class="orange-clr">Speaker</h3>
+                        <h3 class="orange-clr p-4 text-center">Speaker</h3>
                         <p class="white-clr">Hear out the experiences and lessons from various known celebraties</p>
                     </article>
-                    <article class="mpgrid-bg col-md-3 col-lg-2 program justify-content-center text-center p-3 border mr-2">
+                    <article class="mpgrid-bg col-md-2 col-lg-2 program justify-content-center text-center p-3 border mr-2">
                         <i class="fa fa-gift date-font white-clr" aria-hidden="true"></i>
-                        <h3 class="orange-clr">Support</h3>
+                        <h3 class="orange-clr p-4 text-center">Support</h3>
                         <p class="white-clr">Lets support each other in any possible way.</p>
                     </article>
                 </div>
@@ -190,11 +191,11 @@
             <h5 class="footer-text text-center pt-5">Partners</h5>
             <div class="underline mb-3"></div>
             <ul class="flex justify-content-center">
-                <li class="list-style p-5"><a class="footer-text date-font" href="#">Mozzila</a></li>
-                <li class="list-style p-5"><a class="footer-text big-font" href="#">Google</a></li>
-                <li class="list-style p-5"><a class="footer-text date-font" href="#">Edge</a></li>
-                <li class="list-style p-5"><a class="footer-text big-font" href="#">Safari</a></li>
-                <li class="list-style p-5"><a class="footer-text date-font" href="#">Opera</a></li>
+                <li class="list-style p-5 p-sm-2"><a class="footer-text date-font" href="#">Mozzila</a></li>
+                <li class="list-style p-5 p-sm-2"><a class="footer-text big-font" href="#">Google</a></li>
+                <li class="list-style p-5 p-sm-2"><a class="footer-text date-font" href="#">Edge</a></li>
+                <li class="list-style p-5 p-sm-2"><a class="footer-text big-font" href="#">Safari</a></li>
+                <li class="list-style p-5 p-sm-2"><a class="footer-text date-font" href="#">Opera</a></li>
             </ul>
             <div class="flex">
                 <h4 class="footer-text footer1">LPH Concerts & Events Team</h4>
@@ -202,6 +203,16 @@
             </div>
         </section>
     </footer>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    
 </body>
 
 </html>
