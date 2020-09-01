@@ -46,6 +46,10 @@ h2 {
   color: rgb(44, 43, 43);
 }
 
+.dark {
+  color: #272a31;
+}
+
 /* Background color classes */
 .bg-black {
   background-color: #000;
@@ -65,6 +69,10 @@ h2 {
 
 .mpgrid-bg {
   background-color: rgba(102, 100, 100, 0.555);
+}
+
+.orange-bg {
+  background-color: #ec5242;
 }
 
 /* Common style classes */
@@ -275,6 +283,14 @@ footer {
   .tickets h4 {
     font-size: 14px;
   }
+
+  .navbar-nav {
+    flex-direction: row;
+  }
+
+  #myNavbar1 {
+    position: absolute;
+  }
 }
 
 /* About Page */
@@ -340,7 +356,7 @@ footer {
 /* Tickets page */
 
 .main-ticket {
-  height: 90vh;
+  /* height: 90vh; */
 }
 
 .tickets {
@@ -350,4 +366,13 @@ footer {
 
 .col1row1 {
   flex: 1;
+}
+
+.join {
+  border: 2px solid #272a31;
+}
+
+.join a:hover {
+  color: #272a31;
+  text-decoration: none;
 }
