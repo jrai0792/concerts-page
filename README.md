@@ -16,7 +16,7 @@ This project is based on an online website for Concert & Event. I customized it 
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/jrai0792/concerts-page/feature-branch/about.html)
+[Live Demo Link](https://raw.githack.com/jrai0792/concerts-page/feature-branch/index.html)
 
 
 ## Getting Started
