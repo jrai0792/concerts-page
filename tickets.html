@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tickets-Concerts & Events</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d86848cfe0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="full-width">
+        <nav class="navbar navbar-expand-md navbar-inverse top-navbar d-sm-none d-md-block bg-gray">
+            <div class="collapse navbar-collapse navbar-right justify-content-end mr-5 ml-5" id="myNavbar">
+                <ul class="navbar-nav">
+                    <li class="mr-3 ml-3">
+                        <a class="nav-item nav-link gray-clr social-icon" href="#"><i class="fa fa-facebook"
+                                aria-hidden="true"></i></a>
+                    </li>
+                    <li class="mr-3 ml-3">
+                        <a class="nav-item nav-link gray-clr social-icon" href="#"><i class="fa fa-twitter"
+                                aria-hidden="true"></i></a>
+                    </li>
+                    <li class="mr-3 ml-3">
+                        <a class="nav-item nav-link gray-clr social-icon" href="#">English</a>
+                    </li>
+                    <li class="mr-3 ml-3">
+                        <a class="nav-item nav-link gray-clr social-icon" href="#">My Page</a>
+                    </li>
+                    <li class="mr-3 ml-3">
+                        <a class="nav-item nav-link gray-clr social-icon" href="#">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-md navbar-inverse">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand d-none d-md-block"><img class="main-logo"
+                        src="assets/images/logo.png" alt="Main logo image"></a>
+                <div class="navbar-header ml-3 mr-3">
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar1"
+                        aria-controls="myNavbar1" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
+                    </button>
+                </div>
+
+                <div class="collapse navbar-collapse ml-5 mr-5 justify-content-sm-end" id="myNavbar1">
+                    <ul class="navbar-nav menu">
+                        <li class="nav-item mr-sm-5 ml-sm-5">
+                            <a class="nav-link active darkgray-clr" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item mr-sm-5 ml-sm-5">
+                            <a class="nav-link darkgray-clr" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item mr-sm-5 ml-sm-5">
+                            <a class="nav-link darkgray-clr" href="#">Tickets</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="bg-litegray container-fluid">
+        <section class="main-ticket">
+            <h1 class="text-center pt-5 dark">Select Tickets</h1>
+            <div class="underline mb-5"></div>
+            <div class="mb-5">
+                <p class="text-center"><span class="border p-3 radius"><span class="orange-clr mr-2"><span>&bull;</span> Step 1</span> Please select the ticket option.</span></p>
+            </div>
+            <div class="tickets auto-margin flex justify-content-center">
+                <div class="ticket-pricing">
+                    <ul class="deals">
+                        <li class="plans orange-bg">Tickets</li>
+                        <li class="custom-colors silver-bg"><label>Members</label></li>
+                        <li class="custom silver-bg"><label>Non-members</label></li>
+                    </ul>
+                </div>
+                <div class="ticket-pricing">
+                    <ul class="deals">
+                        <li class="plans orange-bg">On-Spot</li>
+                        <li class="custom-colors silver-bg"><input type="radio" name="on-spot1"><label>350</label></li>
+                        <li class="custom silver-bg"><input type="radio" name="on-spot1"><label>350</label></li>
+                    </ul>
+                </div>
+                <div class="ticket-pricing">
+                    <ul class="deals">
+                        <li class="plans orange-bg">Advance</li>
+                        <li class="custom-colors silver-bg"><input type="radio" name="on-spot1"><label>350</label></li>
+                        <li class="custom silver-bg"><input type="radio" name="on-spot1"><label>350</label></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="main-ticket">
+            <h2 class="text-center pt-5 dark">Select your dinner</h2>
+            <div class="underline mb-5"></div>
+            <div class="mb-5">
+                <p class="text-center"><span class="border p-3 radius"><span class="orange-clr mr-2"><span>&bull;</span> Step 2</span> Please select the dinner option.</span></p>
+            </div>
+            
+            <div class="tickets auto-margin flex justify-content-center">
+                <div class="ticket-pricing">
+                    <ul class="deals">
+                        <li class="plans silver-bg"><input type="radio" name="option1"><label>Kabab</label></li>
+                    </ul>
+                </div>
+                <div class="ticket-pricing">
+                    <ul class="deals">
+                        <li class="plans silver-bg"><input type="radio" name="option1"><label>Pasta</label></li>
+                    </ul>
+                </div>
+                <div class="ticket-pricing">
+                    <ul class="deals">
+                        <li class="plans silver-bg"><input type="radio" name="option1"><label>Pizza</label></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tickets auto-margin flex justify-content-center mt-5">
+                <div class="ticket-pricing">
+                    <ul class="deals">
+                        <li class="plans silver-bg"><input type="radio" name="option2"><label>Salad</label></li>
+                    </ul>
+                </div>
+                <div class="ticket-pricing">
+                    <ul class="deals">
+                        <li class="plans silver-bg"><input type="radio" name="option2"><label>Buns</label></li>
+                    </ul>
+                </div>
+                <div class="ticket-pricing">
+                    <ul class="deals">
+                        <li class="plans silver-bg"><input type="radio" name="option2"><label>Rolls</label></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="p-md-5 m-5 p-sm-2">
+            <h2 class="text-center"><span class="join orange-bg text-uppercase"><a href="#" class="white-clr">Join our
+                        community</a></span></h2>
+        </section>
+    </main>
+    <footer class="bg-gray full-width">
+        <div class="flex p-5 justify-content-center">
+            <h4 class="justify-content-center text-center footer1-text p-3 about-footer1">LPH Concerts & Events Team
+            </h4>
+            <p class="footer1-text p-3 about-footer2"><i class="fa fa-copyright" aria-hidden="true"></i> 2020 LPH
+                Concerts & Events Team</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
