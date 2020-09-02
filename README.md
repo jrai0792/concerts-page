@@ -26,9 +26,6 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 Install git on your local machine
 
-### Setup
-Type git init in your local terminal
-
 ### Install
 Clone the repository to your local machine https://github.com/jrai0792/concerts-page
 
@@ -57,7 +54,6 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Design idea by Cindy Shin in Behance
-- Hat tip to anyone whose code was used
 - Inspiration
 - etc
 

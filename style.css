@@ -1,3 +1,7 @@
+/* body {
+    position: absolute;
+} */
+
 main {
   margin: 0;
   padding: 0;
@@ -38,7 +42,7 @@ h2 {
   color: #fff;
 }
 
-.footer-text {
+.footer1-text {
   color: #d3d0d0;
 }
 
@@ -247,9 +251,108 @@ footer {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 575px) {
+  body {
+    min-width: 100%;
+  }
+
   main {
     font-size: 20px;
+  }
+
+  .container-fluid {
+    min-width: 100%;
+  }
+
+  .home-page {
+    height: 100%;
+  }
+
+  .main-heading {
+    width: 100%;
+    font-size: 30px;
+  }
+
+  .speakers {
+    width: 85%;
+  }
+
+  .speakers-row {
+    grid-template-rows: auto;
+    row-gap: 20px;
+    grid-auto-rows: auto;
+  }
+
+  .sp-row {
+    grid-template-columns: 1fr;
+    column-gap: 20px;
+  }
+
+  .tickets h4 {
+    font-size: 14px;
+  }
+
+  .navbar-nav {
+    flex-direction: row;
+  }
+
+  #myNavbar1 {
+    position: absolute;
+    width: 100%;
+  }
+
+  .join {
+    font-size: 20px;
+    padding: 8px;
+  }
+
+  .menu li {
+    margin-left: 30px;
+    margin-right: 20px;
+  }
+
+  .partner-list {
+    padding: 6px;
+  }
+
+  .partner-list a {
+    font-size: 12px;
+  }
+
+  .footer-text {
+    font-size: 12px;
+  }
+
+  .bg-text {
+    width: 80%;
+  }
+
+  .date-font {
+    font-size: 20px;
+  }
+
+  .footer1 {
+    flex: auto;
+  }
+
+  .img-speaker {
+    width: 90px;
+    height: 90px;
+    background-size: cover;
+  }
+
+  .artist-intro {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  main {
+    font-size: 20px;
+  }
+
+  .container-fluid {
+    min-width: 100%;
   }
 
   .home-page {
@@ -276,7 +379,6 @@ footer {
   }
 
   .footer-text {
-    color: #d3d0d0;
     font-size: 18px;
   }
 
@@ -290,6 +392,11 @@ footer {
 
   #myNavbar1 {
     position: absolute;
+  }
+
+  .join {
+    font-size: 20px;
+    padding: 8px;
   }
 }
 
@@ -369,6 +476,7 @@ footer {
 }
 
 .join {
+  padding: 20px;
   border: 2px solid #272a31;
 }
 
