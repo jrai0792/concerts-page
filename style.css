@@ -225,16 +225,9 @@ h2 {
 }
 
 .img-speaker {
-  width: 140px;
-  height: 140px;
-  background-size: cover;
-  transform: translate(20px, -80px);
-}
-
-.artist-bg {
-  height: 100px;
   width: 100px;
-  background-color: #272a31;
+  height: 100px;
+  background-size: cover;
 }
 
 .speaker-text {
@@ -472,7 +465,7 @@ h2 {
   }
 }
 
-@media only screen and (min-width: 576px) and (max-width: 768px) {
+@media only screen and (min-width: 576px) and (max-width: 767px) {
   main {
     font-size: 20px;
   }
@@ -542,5 +535,9 @@ h2 {
 
   .program h3 {
     font-size: 18px;
+  }
+
+  .main-heading {
+    width: 60%;
   }
 }
