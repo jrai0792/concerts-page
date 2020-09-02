@@ -112,11 +112,15 @@ h2 {
   font-size: 30px;
 }
 
-/* Navbar */
-
-header {
+.full-width {
   width: 100%;
 }
+
+.auto-margin {
+  margin: 0 auto;
+}
+
+/* Navbar */
 
 .main-logo {
   width: 150px;
@@ -139,7 +143,6 @@ header {
 
 .home-page,
 .about-main {
-  width: 100%;
   background-image: url("assets/images/background-image.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -151,7 +154,6 @@ header {
 .main-heading {
   font-weight: 900;
   width: 40%;
-  margin: 0 auto;
   font-size: 60px;
   background-image: url("assets/images/heading-bg.jpg"), linear-gradient(180deg, rgba(236, 82, 66, 1) 0%, rgba(217, 15, 15, 1) 30%, rgb(230, 59, 59) 70%, rgba(246, 71, 8, 1) 100%);
   background-clip: content-box;
@@ -164,7 +166,6 @@ header {
   border: 3px solid #f1f1f1;
   z-index: 10;
   width: 50%;
-  margin: 0 auto;
   padding: 20px;
   text-align: left;
   font-size: 22px;
@@ -178,7 +179,6 @@ header {
 /* Main Program section */
 
 .main-program {
-  width: 100%;
   background-image: url("assets/images/main-program-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -187,7 +187,10 @@ header {
 
 .mp-grid {
   width: 70%;
-  margin: 0 auto;
+}
+
+.program h3 {
+  font-size: 22px;
 }
 
 .whole-program:link,
@@ -240,10 +243,6 @@ header {
 
 /* Footer section */
 
-footer {
-  width: 100%;
-}
-
 .footer-content {
   width: 80%;
   margin: 20px auto;
@@ -260,6 +259,10 @@ footer {
 .footer-icon:hover {
   color: #d3d0d0;
   text-decoration: none;
+}
+
+.partner {
+  font-size: 24px;
 }
 
 /* About Page */
@@ -288,7 +291,6 @@ footer {
 
 .about-text {
   width: 70%;
-  margin: 0 auto;
   font-size: 18px;
   border: 3px solid #f1f1f1;
   background-color: white;
@@ -297,12 +299,10 @@ footer {
 
 .about-contact {
   width: 65%;
-  margin: 0 auto;
 }
 
 .theme-image {
   width: 50%;
-  margin: 0 auto;
 }
 
 .theme-img {
@@ -326,7 +326,6 @@ footer {
 
 .tickets {
   width: 80%;
-  margin: 0 auto;
 }
 
 .ticket-pricing {
@@ -368,16 +367,13 @@ footer {
 }
 
 @media only screen and (max-width: 575px) {
-  body {
+  body,
+  .container-fluid {
     min-width: 100%;
   }
 
   main {
     font-size: 20px;
-  }
-
-  .container-fluid {
-    min-width: 100%;
   }
 
   .home-page {
@@ -538,5 +534,13 @@ footer {
   .menu li {
     margin-left: 30px;
     margin-right: 10px;
+  }
+
+  .mp-grid {
+    width: 90%;
+  }
+
+  .program h3 {
+    font-size: 18px;
   }
 }
